@@ -1,10 +1,14 @@
-var song;
-function preload(){
- 
-}
 
+var song;
+
+
+function preload(){
+  song = loadSound("media/Simon & Garfunkel - The Sounds of Silence (Audio).mp3");
+  
+}
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+createCanvas(windowWidth,windowHeight);
+song.play();
   
 } 
 
